@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_dashboard"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.fujitsu.thika.DashboardActivity"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <EditText android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:hint="Seach For Products"/>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Login or Signup"
+        android:id="@+id/searchbtn"/>
+
+    <ImageButton
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:src="@drawable/fans"
+        />
+    <ImageButton
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:src="@drawable/fansimageinpng"
+        />
+    <ImageButton
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:src="@drawable/laptopimageinpng"
+        />
+
+
+</LinearLayout>
+    </ScrollView>
