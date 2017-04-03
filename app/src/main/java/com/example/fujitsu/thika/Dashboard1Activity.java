@@ -20,4 +20,9 @@ public class Dashboard1Activity extends AppCompatActivity {
         usertext.setText("Hello "+text);
 
     }
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+    }
 }
